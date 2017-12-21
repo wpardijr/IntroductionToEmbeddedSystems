@@ -101,10 +101,10 @@ unsigned char find_minimum(unsigned char* arrayPointer, unsigned int arraySize);
  * @return The minimum value
  */
 
-unsigned char* sort_array(unsigned char* arrayPointer, unsigned int arraySize);
+void sort_array(unsigned char* arrayPointer, unsigned int arraySize);
 
 /**
- * @brief Returns an array sorted from the largest to the smallest value
+ * @brief Sorts an array from the largest to the smallest value
  *
  * This function takes as inputs a unsigned char pointer to an n-element data array
  * and an unsigned integer as the size of the same n-element data array. Then it sorts
@@ -114,7 +114,6 @@ unsigned char* sort_array(unsigned char* arrayPointer, unsigned int arraySize);
  * @param arrayPointer A unsigned char pointer to an n-element data array
  * @param arraySize An unsigned integer as the size of the array
  *
- * @return A sorted array
  */
 
 void print_array(unsigned char* arrayPointer, unsigned int arraySize);
